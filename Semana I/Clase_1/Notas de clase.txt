@@ -1,4 +1,32 @@
 Esteban Chinchilla Brenes - Clase 1 de paradigmas notas
 -------
 
-Prof: Carlos Loria
+Prof: Carlos Loria (loriacarlos@gmail.com)
+Link Sitio: https://sites.google.com/site/una2loriacarlos/
+
+--------
+
+Materia:
+
+Lenguajes - Paradigmas - Compiladores
+
+--------
+
+Pendientes:
+Revisar teams y link
+2 correos por clase aproximadamente
+
+---------
+
+Evaluaciones:
+Quices:
+Investigacion:
+Examen(2):
+Proyectos Programados ({1,2})
+
+---------
+
+Romanos 8:11
+
+----------
+
