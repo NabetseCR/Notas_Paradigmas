@@ -10,6 +10,16 @@ Materia:
 
 Lenguajes - Paradigmas - Compiladores
 
+Recomendaciones para los primeros los 2 cursos de carreras de programacion.
+> Python, estudiante se sienta apasionado
+> Empezar por un esqueleto para la investigacion.
+
+--------
+
+Grupo de Trabajo:
+
+Enviar correo a mas tardar de la semana 4
+
 --------
 
 Pendientes:
@@ -23,6 +33,10 @@ Quices:
 Investigacion:
 Examen(2):
 Proyectos Programados ({1,2})
+
+Grupos de 4 personas
+
+8 dias antes se entrega un SPEC de las evaluaciones.
 
 ---------
 
