@@ -1,4 +1,58 @@
 Esteban Chinchilla Brenes - Clase 1 de paradigmas notas
 -------
 
-Prof: Carlos Loria
+Prof: Carlos Loria (loriacarlos@gmail.com)
+Link Sitio: https://sites.google.com/site/una2loriacarlos/
+Lunes - Jueves 3 a 5 horario de atencion.
+--------
+
+Materia:
+
+Lenguajes - Paradigmas - Compiladores
+
+Recomendaciones para los primeros los 2 cursos de carreras de programacion.
+> Python, estudiante se sienta apasionado
+> Empezar por un esqueleto para la investigacion.
+
+--------
+
+Grupo de Trabajo:
+
+Enviar correo a mas tardar de la semana 4
+
+--------
+
+Pendientes:
+Revisar teams y link
+2 correos por clase aproximadamente
+
+Investigar sobre Ollama y Docker
+Instalar Ollama verificar si mi GPU esta siendo usada
+
+Instalar software del curso.
+
+---------
+
+Evaluaciones:
+Quices:
+Investigacion:
+Examen(2):
+Proyectos Programados ({1,2})
+
+Grupos de 4 personas
+
+8 dias antes se entrega un SPEC de las evaluaciones.
+
+--------
+
+Requisitos:
+
+Java, JS, Web
+Programacion funcional y logica.
+
+---------
+
+Romanos 8:11
+
+----------
+

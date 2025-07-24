@@ -1,0 +1,5 @@
+# Programming
+pytest
+rx
+fastapi
+uvicorn[standard]
