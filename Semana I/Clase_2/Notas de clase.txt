@@ -1,0 +1,86 @@
+07/24/2025
+Esteban Chinchilla Brenes - Clase 2 de paradigmas notas
+-------
+
+Materia:
+
+=> Es la IA un nuevo paradigma?
+
+IA Generativa => Le doy un prompt y esta entrega un resultado (texto, video, imagen...)
+LLM => Modelos de Lenguaje Grandes
+
+>>> un LLM es un predictor el cual se entrena mediante machine learning
+>>> Estos prompts se pueden conocer como feature
+>>> Mediante data-sets
+>>> Se hacen ajustes mediante este entrenamiento para llegar a un aproximado de minimo error
+>>> esta conectada con una NN red neuronal => profunda => tiene muchas capas
+>>> NN => algo similar a un nodo, esta reciben variables de una funcion
+estos nodos se conectan a un layer, estos layers reciben las sennales que vienen del 
+nodo, estas se multiplica y suman, son aplicadas a una funcion no lineal, de la cual se obtiene una nueva sennal. (es como un filtro), para verificar un patron.
+
+No necesariamente todos los nodos, se conectan entre si, dependiendo del problema.
+
+Hasta llegar a la capa final... de esta sale el resultado de la funcion.
+
+Arquitectura de Transformers => Es la que utiliza ChatGPT
+
+
+====>>>>
+
+Con esto en mente, es IA un paradigma
+
+Meta Paradigma --> 
+
+Podemos usar un prompt para que se comporte usando un paradigma
+
+Meta Programacion => Genero algoritmos que brindan codigo.
+
+====>>>
+
+Paradigma: Thomas Kuhm
+
+Ciencia evoluciona por el momento en que un paradigma resulta optimo para algun fenomeno en la actualidad.
+
+Son un conjunto de reglas, supuestos, valores que se dan por cierto, los cuales se usan para entender alguna realidad>>
+
+Para temas del curso vamos a tener una perspectiva POSITVISTA (Existe una realidad)
+
+Para efectos practicos y de programacion, existen 3 paradigmas
+
+OOP
+Funcional
+Programacion Logica
+
+==> Orientacion a objetos => se enfoca en los sustantivos (objetos) DATOS PRIMERO
+==> Funcional => se enfoca en los verbos (funciones) FUNCIONES PRIMERO
+==> Logico => 
+
+Entre mas cerca de la DB utilizar OOP
+Entre mas cerca del API utilizar Funcional
+
+
+EJEMPLO (OOP):
+
+Banco (Es mi dominio) => clientes,persona, cuenta, prestamo
+Decorator es un patron de disenno que cumple con manejar la variabilidad de un verbo (conductas)
+Sistema de prestamos ()
+
+EJEMPLO (Funcional):
+
+cobrar, depositar, pagar, retirar, cancelar
+
+--------
+
+Pendientes:
+
+Investigar sobre Ollama y Docker
+Instalar Ollama verificar si mi GPU esta siendo usada
+
+---------
+
+Salmo 33:5
+
+El SEÑOR ama la justicia y el derecho; llena está la tierra de su gran amor.
+
+----------
+
