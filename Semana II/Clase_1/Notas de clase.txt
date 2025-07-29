@@ -157,6 +157,11 @@ a es una instancia de A
 A<:B => class A extends B
 
 
+jshell
+var x = 777
+x = "hola" => produce un error de semantica estatico
+x/0 => produce error de semantica dinamica
+
 --------
 
 Grupo de Trabajo:
