@@ -3,6 +3,157 @@ Esteban Chinchilla Brenes - Clase 3 de paradigmas notas
 
 Materia:
 
+Ejercicio de autoestudio
+
+-> Boda
+
+Realidad <- Observador -> Modelo
+      (Utiliza un paradigma) -> Ciencia
+	  -> Principios, reglas, supuestos, convenciones
+	  -> Lo que se obtiene en el modelo, va a respetar y aceptar todo lo que determinamos
+			en el paradigma aplicado.
+	  -> En los paradigmas existen (SHIFTS => avances)
+
+-> Paradigma computacional: Usar computadora para obtener nuevos conocimientos
+
+Google Minds (Proteinas)
+
+=> OOP
+=> FP
+=> LP
+
+Partimos del POSITIVISMO => Damos por sentado que existe una realidad real.
+
+ The Pygmalion effect, also known as the Rosenthal effect, describes how a person's expectations can influence another person's performance or behavior, often leading to a self-fulfilling prophecy.
+
+OOP
+1. Buscar sustantivos (Objetos)
+2. Buscar relaciones
+3. Buscar verbos (Funciones)
+
+FP
+1. Buscar verbos (Funciones)
+2. Buscar sustantivos (Objetos)
+3. Buscar relaciones <-> Funciones
+
+LP
+1. Buscar relaciones
+2. Buscar sustantivos (Objetos)
+3. Funciones son un caso particular de las relaciones, teniendo menos peso que estas ultimas.
+
+Ejemplo LP
+
+=> "Juan es padre de Maria"
+  padre(juan,maria) => esto es un HECHO
+  ? hago un query para saber si es padre de Maria
+  ?padre(x, maria) va a ser cierto solo si x = juan
+  
+  ? query busco los hijos de Juan
+  ?padre(juan, x) => cierto si x es hijo de Juan
+  
+Ejemplo OOP
+
+	class Familia {
+		...
+		bool padre(Person p, Person h) {
+			...
+		}
+		
+		bool padreDe(Persona p, List<Person> hijos) {
+			... consultar hijos de p
+		}
+	}
+	
+Ejemplo FP
+
+
+// Predicado es un funcion que retorna un boolean
+
+Cuando usar determinado paradigma:
+
+=> Ingenieria de datos es mejor Funcional (Datos en general)
+=> Sistemas estructurados financieros...
+=> Inteligencia artificial de los 80s
+
+META-RELACIONES
+
+is-A ako(a kind of) -> HERENCIA *SER
+
+=> Definir un objeto en su escencia
+Por ejemplo => ser humano
+
+has-A -> COMPOSICION *TENER
+
+Solucion BODA OOP
+
+Sustantivos:
+Boda, Persona, Rol, Novia, Musico, Invitado
+
+Relaciones:
+ako es una herencia
+entonces Novia hereda de Persona (relacion estatica => si ya existe en tiempo de compilacion)
+
+composicion
+Persona uno a muchos, o muchos a uno Persona <-<----->-> Rol (relacion dinamica => solo se conoce en tiempo de ejecucion)
+
+
+LENGUAJES DE PROGRAMACION (PL) Programming Language
+
+Con esto se puede ver reflejada la relacion de Paradigma, Lenguage y Compilador
+
+COMPILADOR esta asociado a un Lenguaje de programacion:
+Un lenguaje posee Sintaxis (Estructura de como se escribe => Gramatica)
+Ademas posee Semantica (lo que le da sentido a lo escrito)
+
+COMPILADOR es una funcion la cual recibe texto(fuente/source), y retorna un Target
+
+ejemplo
+.java ----> |Compilador| -----> .class
+
+El compilador normalmente tiene de 3 componentes
+
+1.Revisa que cumple con la sintaxis del lenguaje
+=> Puede retornar errores de sintaxis
+
+2.Es no esta presente en todos los lenguajes de programacion!! Analizador Semantico
+Revisar tipos por ejemplo
+
+3.Code generation
+
+|Analizador sintactico|	|Analizador Semantico|	|Code Generation|
+|PARSER|	|TYPER|	|CODE GENERATOR| ==> Esto va a una maquina
+
+=> NULL Pointer Exception => Error semantico dinamico
+
+
+Verbos: (is-A, akos, has-A)
+Novia is a kind of Person
+**maria is-A Person
+maria is-A Novia con esta ultima se borra la anterior porque se infiere que Novia is a kind of person, esto es a lo que se refiere el termino META-LOGICA
+
+META-LOGICA:
+(Instanciacion Universal)
+b isA B => b:B
+B ako A => B<:A
+Se infiere => b:A 
+
+(Transitividad)
+A<:B
+B<:C
+Se infiere => A<:C
+
+(Reflexividad)
+A<:A
+
+class A {}
+A a = new A()
+a is-A A
+a:A
+a es una instancia de A
+
+
+A<:B => class A extends B
+
 
 --------
 
@@ -13,7 +164,12 @@ Grupo de Trabajo:
 
 Pendientes:
 
+Jueves Quiz Grupal!!!
+Trabajo en grupo, varias preguntas, se entrega una hoja con las respuestas.
+- Programacion -codigo-
+- Entregable hoja con nombres y respuestas.
 
+** Cuanto duro en corona espannola en darle status de humano a los nativos de america
 --------
 
 Deuteronomio 7:9
