@@ -8,6 +8,107 @@ Lunes - Jueves 3 a 5 horario de atencion.
 
 Materia:
 
+Se realiza la revision del quiz de la semana pasada, empezando por visualizar las restricciones que teniamos
+Lenguaje => Java
+Compilador => Javac
+Paradigma => Orientado a objetos
+
+El comando JAVA levanta la maquina virtual.
+
+Write Once Run Anyone (WORA) Principle
+Esto es lo que tenemos con la maquina virtual.
+
+Nuestra solucion es crear un modelo conceptual al cual atacar el problema.
+
+OMG => ONG que estandariza UML
+
+Faceta Declarativa y otra Operativa
+
+Declarativa => Contesta Que?
+Contesta => Como?
+
+Arquitecto => Ve el disenno macro.
+
+Ingeniero => Construye el disenno macro
+
+Cosas a revisar:
+
+Lenguaje de programacion tiene 2 componentes
+Sintaxis la cual se le asocia una --> Semantica.
+
+Texto-->|Analizador sintactico|--> AST-->|Analizador Semantico|-->|Code Generation|
+		|PARSER|			|TYPER|		  |CODE GENERATOR| ==> Esto va a una maquina
+
+Parser construye esto
+
+AST: Abstract Syntax Tree
+
+una suma seria asi
+	+
+       /\
+      2  3
+Symbol Table: Ademas una tabla donde son registrados todos los identificadores: Tabla de Simbolos 
+
+Analizador Semantica genera => Errores Semanticos Estaticos
+
+
+CODIGO:
+
+Expresiones con diferentes propositos:
+
+Codigo Operacional: for/if/print
+Codigo Declarativo: package/import => una orden al compilador.
+
+Ejemplos Codigo Declarativo
+
+package => package boda.model;
+Semanticamente crea un namespace 
+
+Por ejemplo dentro de este package creo una clase 
+class A {}
+
+A nombre incompleto
+boda.Model.A nombre completo
+
+A partir de Java 9 => Se agrego el termino de modulo, los paquetes se pueden organizar en modulos
+INVESTIGAR
+
+Compilador genera estas carpetas
+package boda.model;
+--->boda
+ |
+ -->model
+     |
+     --> clases
+
+import => import java.util.*
+
+import java.util.*; => quiero todos los .class dentro de util
+import boda.model.Boda; => quiero solo Boda
+import static boda boda.model.Boda.*; -> quiero solo los miembros estaticos dentro de boda
+
+jshell => Maneja todo en memoria 
+
+/imports => me regresa los imports que estoy usando
+Math. enter enter retorna todos los metodos de una clase
+
+import static java.lang.Math.sqrt
+
+public class TestBoda {
+
+public => modificador => para este ejemplo es un ejemplo de modificador de visibilidad 
+(public, protected, private, y otro que es solo un espacio en blanco)
+	=> el package deja que esta clase sea vista por el mundo externo
+
+protected: un private que permite acceso a sus hijas.
+private: a nadie
+el espacio: da una visibilidad amigable en el paquete eso va a ser publico.
+
+un public dentro de una clase => hace visible algo fuera de la clase
+
+no se puede un public dentro de un metodo.
+
+
 
 --------
 
@@ -20,11 +121,10 @@ Pendientes:
 
 ---------
 
-El Señor no retarda su promesa, según algunos la tienen por tardanza, 
-sino que es paciente para con nosotros, no queriendo que ninguno perezca, 
-sino que todos procedan al arrepentimiento.
+Jesús respondió: —Escrito está: 
+“No solo de pan vive el hombre, sino de toda palabra que sale de la boca de Dios”.
 
-2 PEDRO 3:9
+Mateo 4:4
 
 ----------
 
