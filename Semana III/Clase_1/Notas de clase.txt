@@ -108,7 +108,8 @@ un public dentro de una clase => hace visible algo fuera de la clase
 
 no se puede un public dentro de un metodo.
 
-
+var ana = new Mujer("Ana");
+Principio DRY Dont Repeat Yourself
 
 --------
 

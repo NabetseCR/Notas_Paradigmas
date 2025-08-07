@@ -121,7 +121,7 @@ Revisar tipos por ejemplo
 3.Code generation
 
 |Analizador sintactico|	|Analizador Semantico|	|Code Generation|
-|PARSER|	|TYPER|	|CODE GENERATOR| ==> Esto va a una maquina
+|PARSER|			|TYPER|		|CODE GENERATOR| ==> Esto va a una maquina
 
 Estas maquinas pueden ser REALES o VIRTUALES en java conocido como (JVM)
 

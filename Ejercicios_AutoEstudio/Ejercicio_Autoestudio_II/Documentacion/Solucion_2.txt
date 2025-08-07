@@ -1,0 +1,7 @@
+Cuando declaras una variable dentro de un método, estás declarando una variable local. Y Java no permite controlar el acceso (con public o private) a una variable que está solo disponible dentro de un bloque.
+
+No tiene sentido hablar de "quién puede acceder" a una variable local, porque:
+
+Solo vive en ese método.
+
+No se puede acceder desde fuera, de todas formas.
