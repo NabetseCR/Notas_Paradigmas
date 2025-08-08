@@ -8,8 +8,7 @@ public class Test {
     }
 
     static class C {
-        // Esto es ambiguo: ¿A.x o B.x?
-        static int x = x; // ⚠️ Aquí está el problema
+        static int x = x;
 
         public static void main(String[] args) {
             System.out.println(x);

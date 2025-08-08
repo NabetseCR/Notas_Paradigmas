@@ -8,6 +8,55 @@ Lunes - Jueves 3 a 5 horario de atencion.
 
 Materia:
 
+Programacion Funcional
+
+Determinar porque la programacion Funcional es mejor que Programacion Orientada a Objetos;
+
+EN EL CURSO PROGRAMAR EN PARADIGMA FUNCIONAL
+
+La industria por necesidad tuvo una invension la cual es el multiparadigma OOP-FP
+
+=> Esto lleva a una evolucion de los lenguajes, se va a ver historia sobre la evolucion, lo cual va a justificar el Multiparadigma propuesto.
+
+Nace de:
+
+Dominio (Banco, Matematica, Boda)  => Lo queremos modelar (Mediante una representacion):R0 <Representacion 0> => esto es la ABSTRACCION
+Luego de esta abstraccion se puede realizar otra representacion R1, esta representacion se puede utilizar para otros dominios.
+De R1, podemos hacer mas abstracciones, por lo cual es recursivo.
+
+Uno es mas eficiente a la medida de que se enfoque a una sola cosa.
+
+DIAGRAMA DE PIRAMIDE
+
+Hardware ==> Lenguaje Humano
+- Abstraccion => + Abstraccion
+
+Hardware => Sistema Operativo => Application Servers (Front End seria el browser y servers como tal TOMCAT) =>  Framework (React) => Maquina virtual (Jenkins/Maquinas virtuales) => Lenguaje Computacional.
+
+A nivel de desarrollo vemos como todas estas capas ya estan virtualizadas, por ende solo nos dedicamos a desarrollar sin pensar en lo demas, pero esa deja claro la gran abstraccion donde trabajamos.
+
+El lenguaje humano es nuestro limite ==> podemos poner una capa arriba Lenguaje AI-Humano => lenguaje 
+
+Toda esta abstraccion es parte de una evolucion.
+
+Paradigmas contexto => Slide 7 viene piramide.
+
+TIOBE INDEX
+
+Lisp primer lenguaje enfocado para IA, padre de la programacion funcional.
+
+Porque JAVA agrego Programacion Funcional
+
+=> Salio SCALA 
+
+PROGRAMACION FUNCIONAL:
+
+Principios:
+
+-> Funcion es un objeto.
+
+
+
 
 --------
 
@@ -20,11 +69,9 @@ Pendientes:
 
 ---------
 
-El Señor no retarda su promesa, según algunos la tienen por tardanza, 
-sino que es paciente para con nosotros, no queriendo que ninguno perezca, 
-sino que todos procedan al arrepentimiento.
+Pero Dios demuestra su amor por nosotros en esto: en que cuando todavía éramos pecadores, Cristo murió por nosotros.
 
-2 PEDRO 3:9
+Romanos 5:8
 
 ----------
 

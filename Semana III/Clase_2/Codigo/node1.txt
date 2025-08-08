@@ -1,0 +1,42 @@
+Node Code Session 1
+
+funcion para sumar
+
+node
+-> enter
+function add(x){return x + 777}
+-> enter
+add(10)
+-> enter
+
+var x = 777
+
+x
+
+add
+esto demuestra que las funciones son objetos;
+
+add referencia a una funcion que tiene el bytecode de nuestra funcion anteriormente definida.
+
+add. tab tab
+
+vamos a ver las propiedades de esa funcion -> objeto
+
+nos importa 
+add.apply:
+add.call:
+add.length: retorna la cantidad de parametros que tiene la funcion
+
+
+function add(x){return x + 777} transformarla en algo menos verboso
+
+const add_fp = x => x + 777
+          lista parametros => lo que hace la funcion
+		  
+add fp es una funcion que recibe x y retorna x + 777
+
+add_fp(10) = (x => x + 777)(10) => Esto se conoce como una reduccion beta
+
+=> 10 se cambia por x
+=> 10 + 777
+=> 787
