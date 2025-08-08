@@ -40,3 +40,16 @@ add_fp(10) = (x => x + 777)(10) => Esto se conoce como una reduccion beta
 => 10 se cambia por x
 => 10 + 777
 => 787
+
+const comp = (f,g) => x => f(g(x))
+const add_2 = comp(add, add)
+
+add_2(0)
+1554 da como resultado
+
+que esta sucediendo
+
+add_2(0) = comp(add,add)(0)
+	     = (f,g) => x => f(g(x))(add, add)0
+		 = (x => add(add(x)))(0)
+		 = add(add(0)) seguir esto
